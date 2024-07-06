@@ -65,16 +65,6 @@ SpeedUps between Sorting Algorithms
 (Heap Sort / Quick Sort) SpeedUp = 1.48968
 ```
 
-## Building and Running the Project
-1. Clone the repository to your local machine.
-2. Compile the project files:
-   ```sh
-   g++ -o sorting_searching main.cpp insertion_sort.cpp quick_sort.cpp merge_sort.cpp heap_sort.cpp sequential_search.cpp binary_search.cpp
-   ```
-3. Run the executable:
-   ```sh
-   ./sorting_searching
-   ```
 
 ## Notes
 - The Quick Sort algorithm uses the median as the pivot and switches to Insertion Sort for subarrays smaller than 10 elements.
